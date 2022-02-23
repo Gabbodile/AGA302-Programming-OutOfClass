@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Projectile : MonoBehaviour
 {
-    // To desctroy the projectile after a certain amount of time
+    // To destroy the projectile after a certain amount of time
     void Start()
     {
         Destroy(gameObject, 3);

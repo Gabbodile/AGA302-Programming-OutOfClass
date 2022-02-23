@@ -8,7 +8,7 @@ public class TriggerPad : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-     if(other.CompareTag ("Player"))
+        if(other.CompareTag ("Player"))
         {
             sphere.GetComponent<Renderer>().material.color = Color.green;
         }
