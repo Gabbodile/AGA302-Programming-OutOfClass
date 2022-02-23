@@ -8,7 +8,6 @@ public class FiringPoint : MonoBehaviour
     public float projectileSpeed = 1000f;
     public Transform firingPoint;
 
-    // Update is called once per frame
     void Update()
     {
         if(Input.GetButtonDown("Fire1"))
