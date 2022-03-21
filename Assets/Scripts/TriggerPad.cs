@@ -11,6 +11,7 @@ public class TriggerPad : MonoBehaviour
         if(other.CompareTag ("Player"))
         {
             sphere.GetComponent<Renderer>().material.color = Color.green;
+            Debug.Log("Entered");
         }
     }
 
@@ -18,7 +19,8 @@ public class TriggerPad : MonoBehaviour
     {
        if(other.CompareTag("Player"))
         {
-            sphere.transform.localScale = Vector3.one * 0.01f;
+            sphere.transform.localScale += Vector3.one * 0.01f;
+            Debug.Log("Staying");
         }
     }
 
@@ -28,6 +30,7 @@ public class TriggerPad : MonoBehaviour
         {
             sphere.transform.localScale = Vector3.one;
             sphere.GetComponent<Renderer>().material.color = Color.yellow;
+            Debug.Log("Exited");
         }    
     }
 }
