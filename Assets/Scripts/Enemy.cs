@@ -50,7 +50,7 @@ public class Enemy : GameBehaviour
     void Hit(int _damage)
     {
         myHealth -= _damage;
-       _GM.AddScore(10);
+        GameEvents.ReportEnemyHit(this);
 
         if (myHealth <= 0)
             Die();
@@ -58,8 +58,7 @@ public class Enemy : GameBehaviour
 
     void Die()
     {
-        _GM.AddScore(100);
-        _EM.EnemyDied(this);
+        GameEvents.ReportEnemyDied(this);
         StopAllCoroutines();
         Destroy(this.gameObject);
     }

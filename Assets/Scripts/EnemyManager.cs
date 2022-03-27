@@ -81,9 +81,18 @@ public class EnemyManager : GameBehaviour<EnemyManager>
         }
     }
 
+    private void OnEnable()
+    {
+        GameEvents.OnEnemyDied += EnemyDied;
+    }
+
+    private void OnDisable()
+    {
+        GameEvents.OnEnemyDied -= EnemyDied;
+    }
     public void EnemyDied(Enemy _enemy)
     {
         enemies.Remove(_enemy.gameObject);
-        print(enemies.Count);
+        Destroy(_enemy.gameObject);
     }
 }
