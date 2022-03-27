@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Target : MonoBehaviour
+public class TargetManager : GameBehaviour
 {
     private TargetSize size;
     public enum TargetSize
@@ -14,7 +14,7 @@ public class Target : MonoBehaviour
 
     void Start()
     {
-        SetUp()
+        SetUp();
     }
     void SetUp()
     {

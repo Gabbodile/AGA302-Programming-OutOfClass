@@ -1953,3 +1953,45 @@ Received Import Request.
   path: Assets/Skeletons/Prefabs/Skeleton_TwoHanded_B.prefab
   artifactKey: Guid(77ad0facb2a27504ab8edf68c35a1346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Skeletons/Prefabs/Skeleton_TwoHanded_B.prefab using Guid(77ad0facb2a27504ab8edf68c35a1346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50cc5e3f962d2e0898986b729fd49016') in 0.049987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 68.475697 seconds.
+  path: Assets/Scripts/Target.cs
+  artifactKey: Guid(78dc36cfdc7859f4ba0c43163cad8108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Target.cs using Guid(78dc36cfdc7859f4ba0c43163cad8108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed0c9e990cf775b8ea9e3d8eff26e521') in 0.005451 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.382023 seconds.
+  path: Assets/Scripts/TargetManager.cs
+  artifactKey: Guid(4a80d35335e42ef42978d84ab6c70596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/TargetManager.cs using Guid(4a80d35335e42ef42978d84ab6c70596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33eece48e477c4f5ba77e743a4c08951') in 0.008763 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 47.223637 seconds.
+  path: Assets/Scripts/Target.cs
+  artifactKey: Guid(78dc36cfdc7859f4ba0c43163cad8108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Target.cs using Guid(78dc36cfdc7859f4ba0c43163cad8108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32950fd440add175acfc1594bc8c6b39') in 0.012920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.040143 seconds.
+  path: Assets/Scripts/TargetManager.cs
+  artifactKey: Guid(78dc36cfdc7859f4ba0c43163cad8108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/TargetManager.cs using Guid(78dc36cfdc7859f4ba0c43163cad8108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2f5df80cce8e007fade7e4c60c61b40') in 0.010137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.699673 seconds.
+  path: Assets/Scripts/GameEvents.cs
+  artifactKey: Guid(2bfe11b8bee56bc4285587de6bd59b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameEvents.cs using Guid(2bfe11b8bee56bc4285587de6bd59b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de7327981f57053f214fead8ca79514d') in 0.007751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.070582 seconds.
+  path: Assets/Scripts/TargetManager.cs
+  artifactKey: Guid(78dc36cfdc7859f4ba0c43163cad8108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/TargetManager.cs using Guid(78dc36cfdc7859f4ba0c43163cad8108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fd48bebd3ec210d9281c5a65695a38b') in 0.011872 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 73.467102 seconds.
+  path: Assets/Scripts/TargetManager.cs
+  artifactKey: Guid(78dc36cfdc7859f4ba0c43163cad8108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/TargetManager.cs using Guid(78dc36cfdc7859f4ba0c43163cad8108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db244c6021feb73f1ed0065d40f48b2c') in 0.012271 seconds 
