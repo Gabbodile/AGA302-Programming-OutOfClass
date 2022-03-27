@@ -80,7 +80,8 @@ public class EnemyManager : GameBehaviour<EnemyManager>
             yield return new WaitForSeconds(spawnDelay);
         }
     }
-
+    
+    //Enemy is dead
     private void OnEnable()
     {
         GameEvents.OnEnemyDied += EnemyDied;

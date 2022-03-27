@@ -11,6 +11,7 @@ public enum GameState
     InGame
 }
 
+//Difficulty settings
 public enum Difficulty {Easy, Medium, Hard}
 public class GameManager : GameBehaviour<GameManager>
 {

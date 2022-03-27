@@ -29,6 +29,7 @@ public class Enemy : GameBehaviour
         }
     }
 
+    //Move forward
     IEnumerator Move()
     {
         for(int i = 0; i < moveDistance; i ++)

@@ -8,6 +8,7 @@ public static class GameEvents
     public static event Action<Enemy> OnEnemyHit = null;
     public static event Action<Enemy> OnEnemyDied = null;
 
+    //Debug reports
     public static void ReportEnemyHit(Enemy _enemy)
     {
         Debug.Log("Enemy " + _enemy.name + " was hit" );
