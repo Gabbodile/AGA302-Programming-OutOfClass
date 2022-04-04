@@ -2,36 +2,78 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum GameState
-{
-    Start,
-    Playing,
-    Paused,
-    GameOver,
-    InGame
-}
-
-//Difficulty settings
-public enum Difficulty {Easy, Medium, Hard}
+public enum GameState { Title, Playing, Paused, GameOver};
+public enum Difficulty { Easy, Medium, Hard};
 public class GameManager : GameBehaviour<GameManager>
 {
+
     public GameState gameState;
-    public Difficulty difficulty;
+    public Difficulty diffculty;
+    public int score;
     int scoreMultiplier = 1;
-    int score;
+    bool isPaused = false;
 
     void Start()
     {
-        gameState = GameState.Start;
-        difficulty = Difficulty.Easy;
+        DontDestroyOnLoad(gameObject);
 
-        SetUp();
+        //gameState = GameState.Title;
+
+        
+
     }
 
-    // Update is called once per frame
-    void SetUp()
+    private void Update()
     {
-        switch (difficulty)
+        if (Input.GetKeyDown(KeyCode.Escape))
+            TogglePause();
+    }
+
+    public void TogglePause()
+    {
+        //if (gameState != GameState.Playing || gameState != GameState.Paused)
+        //    return;
+
+        isPaused = !isPaused;
+        if (isPaused)
+        {
+            ChangeGameState(GameState.Paused);
+            Time.timeScale = 0;
+        }
+        else
+        {
+            ChangeGameState(GameState.Playing);
+            Time.timeScale = 1;
+        }
+    }
+
+    public void AddScore(int _value)
+    {
+        score += _value * scoreMultiplier;
+        GameEvents.ReportScoreChange(score);
+    }
+
+    void OnEnemyHit(Enemy _enemy)
+    {
+        AddScore(10);
+    }
+
+    void OnEnemyDied(Enemy _enemy)
+    {
+        AddScore(100);
+    }
+
+    public void ChangeGameState(GameState _gameState)
+    {
+        gameState = _gameState;
+        GameEvents.ReportGameStateChange(gameState);
+    }
+
+    public void ChangeDifficulty(int _difficulty)
+    {
+        diffculty = (Difficulty)_difficulty;
+
+        switch (diffculty)
         {
             case Difficulty.Easy:
                 scoreMultiplier = 1;
@@ -45,55 +87,19 @@ public class GameManager : GameBehaviour<GameManager>
             default:
                 scoreMultiplier = 1;
                 break;
-        }
-    }
 
-    public void AddScore(int _points)
-    {
-        score += _points * scoreMultiplier;
-        _UI.UpdateScore(score);
+        }
     }
 
     private void OnEnable()
     {
         GameEvents.OnEnemyHit += OnEnemyHit;
+        GameEvents.OnEnemyDied += OnEnemyDied;
     }
 
     private void OnDisable()
     {
         GameEvents.OnEnemyHit -= OnEnemyHit;
-    }
-
-    void OnEnemyHit(Enemy _enemy)
-    {
-        AddScore(10);
-    }
-
-    public float maxTime = 30;
-    float timer = 30;
-
-    void Update()
-    {
-        if (gameState == GameState.InGame)
-        {
-            timer -= Time.deltaTime;
-            timer = Mathf.Clamp(timer, 0, maxTime);
-            _UI.UpdateTimer(timer);
-        }
-    }
-
-    public void ChangeGameState(GameState _gameState)
-    {
-        gameState = _gameState;
-    }
-
-    public void ChangeDifficulty(int _difficulty)
-    {
-        difficulty = (Difficulty)_difficulty;
-    }
-
-    public enum Difficulty
-    {
-        Easy, Medium, Hard
+        GameEvents.OnEnemyDied -= OnEnemyDied;
     }
 }

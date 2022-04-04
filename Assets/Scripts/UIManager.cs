@@ -1,21 +1,57 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class UIManager : GameBehaviour<UIManager>
 {
     public TMP_Text scoreText;
-    public TMP_Text timerText;
+    public GameObject mainPanel;
+    public GameObject pausePanel;
+    void Start()
+    {
+        UpdateScore(0);
+    }
 
-    public void UpdateScore(int _score)
+    void UpdateScore(int _score)
     {
         scoreText.text = "Score: " + _score;
     }
 
-    public void UpdateTimer(float _timer)
+    public void ReturnToTitle()
     {
-        timerText.text = "Time Remaining: " + _timer.ToString("F2");
-        timerText.color = _timer < 10f ? Color.red : Color.white;
+        SceneManager.LoadScene("Title");
+    }
+
+    void OnGameStateChange(GameState _gameState)
+    {
+        switch (_gameState)
+        {
+            case GameState.Playing:
+                mainPanel.SetActive(true);
+                mainPanel.SetActive(false);
+                break;
+            
+            case GameState.Paused:
+                mainPanel.SetActive(true);
+                mainPanel.SetActive(false);
+                break;
+            case GameState.Title:
+            case GameState.GameOver:
+                break;
+        }
+    }
+
+    private void OnEnable()
+    {
+
+        GameEvents.OnScoreChange += UpdateScore;
+    }
+
+    private void OnDisable()
+    {
+        GameEvents.OnScoreChange -= UpdateScore;
     }
 }

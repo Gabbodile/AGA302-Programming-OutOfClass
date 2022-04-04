@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4727284300964216594}
   - component: {fileID: 4727284300964216589}
   - component: {fileID: 4727284300964216588}
-  - component: {fileID: 4727284300964216591}
+  - component: {fileID: 3596349593187998194}
   - component: {fileID: 6663832786636626423}
   m_Layer: 0
   m_Name: Projectile
@@ -99,7 +99,7 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &4727284300964216591
+--- !u!114 &3596349593187998194
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -108,9 +108,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 4727284300964216590}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 21257a95c52b65e46bb8c5eba902a25f, type: 3}
+  m_Script: {fileID: 11500000, guid: 67aeda20fa719d64dbb48f6409b6608d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  damage: 10
 --- !u!54 &6663832786636626423
 Rigidbody:
   m_ObjectHideFlags: 0

@@ -5,32 +5,35 @@ using UnityEngine;
 public class TriggerPad : MonoBehaviour
 {
     public GameObject sphere;
+    public Color toColor;
+    Color originalColor;
 
-    void OnTriggerEnter(Collider other)
+    private void Start()
     {
-        if(other.CompareTag ("Player"))
+        originalColor = sphere.GetComponent<Renderer>().material.color;
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.gameObject.CompareTag("Player"))
         {
-            sphere.GetComponent<Renderer>().material.color = Color.green;
-            Debug.Log("Entered");
+            sphere.GetComponent<Renderer>().material.color = toColor;
         }
     }
 
-    void OnTriggerStay(Collider other)
+    private void OnTriggerStay(Collider other)
     {
-       if(other.CompareTag("Player"))
+        if (other.gameObject.CompareTag("Player"))
         {
             sphere.transform.localScale += Vector3.one * 0.01f;
-            Debug.Log("Staying");
         }
     }
 
-    void OnTriggerExit(Collider other)
+    private void OnTriggerExit(Collider other)
     {
-        if (other.CompareTag("Player"))
+        if (other.gameObject.CompareTag("Player"))
         {
+            sphere.GetComponent<Renderer>().material.color = originalColor;
             sphere.transform.localScale = Vector3.one;
-            sphere.GetComponent<Renderer>().material.color = Color.yellow;
-            Debug.Log("Exited");
-        }    
+        }
     }
 }

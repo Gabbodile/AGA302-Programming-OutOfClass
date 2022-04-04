@@ -1445,10 +1445,10 @@ GameObject:
   - component: {fileID: 477336}
   - component: {fileID: 9532452}
   - component: {fileID: -8093791268475510630}
-  - component: {fileID: 1354258001089693212}
+  - component: {fileID: 3386779547452405922}
   m_Layer: 0
   m_Name: Skeleton_B
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1481,7 +1481,7 @@ Animator:
   m_GameObject: {fileID: 165576}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 20300ac630e0fcd4dbab63a9b39cdafa, type: 3}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 497273303c913e84592be5276688accb, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
@@ -1500,23 +1500,28 @@ MonoBehaviour:
   m_GameObject: {fileID: 165576}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 20f255201a995da4d9080c6523e042a4, type: 3}
+  m_Script: {fileID: 11500000, guid: 9262fb6432206f24ca7fd58af6959ffc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myType: 1
+  myType: 0
   myHealth: 0
---- !u!114 &1354258001089693212
-MonoBehaviour:
+  mySpeed: 0
+  myPatrol: 0
+  moveToPos: {fileID: 0}
+--- !u!136 &3386779547452405922
+CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 165576}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78dc36cfdc7859f4ba0c43163cad8108, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Radius: 0.3
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.5, z: 0}
 --- !u!1 &166360
 GameObject:
   m_ObjectHideFlags: 0

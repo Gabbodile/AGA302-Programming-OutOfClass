@@ -8,7 +8,7 @@ public class UITitle : GameBehaviour
     public void StartGame()
     {
         SceneManager.LoadScene("MainScene");
-        _GM.ChangeGameState(GameState.InGame);
+        _GM.ChangeGameState(GameState.Playing);
     }
 
     public void QuitGame()

@@ -2,12 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum EnemyType
-{
-    OneHand,
-    TwoHand,
-    Archer
-}
+public enum EnemyType { OneHand, TwoHand, Archer};
+public enum PatrolType { linear, Random, Loop};
+
 public class EnemyManager : GameBehaviour<EnemyManager>
 {
     public string[] enemyNames;
@@ -16,84 +13,125 @@ public class EnemyManager : GameBehaviour<EnemyManager>
 
     public List<GameObject> enemies;
 
+    
+    
     void Start()
     {
-        SpawnEnemy();
+        StartCoroutine(SpawnEnemyDelay());
+        //StartCoroutine(SpawnEnemyDelay());
+        //for (int i = 0; i < 101; i++)
+        //{
+        //    print(i);
+        //}
     }
 
-
-    void Update()
+    private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.K))
-            KillEnemy(enemies[0]);
+        
+        //if (Input.GetKeyDown(KeyCode.K))
+        //    KillAllEnemies();
 
-        if (Input.GetKeyDown(KeyCode.B))
-            KillSpecificEnemies("_B");
+        //if (Input.GetKeyDown(KeyCode.B))
+        //    KillSpecificEnemy("_B");
+
+        
     }
-
+    
+    /// <summary>
+    /// Spawns Enemies at spawn point locations
+    /// </summary>
     void SpawnEnemy()
+    {
+        
+        for(int i = 0; i < spawnPoints.Length; i++)
+        {
+            int rnd = Random.Range(0, enemyTypes.Length);
+            GameObject og = Instantiate(enemyTypes[rnd], spawnPoints[i].position, spawnPoints[i].rotation);
+            enemies.Add(og);
+        }
+    }
+    IEnumerator SpawnEnemyDelay()
     {
         for (int i = 0; i < spawnPoints.Length; i++)
         {
             int rnd = Random.Range(0, enemyTypes.Length);
-            GameObject go = Instantiate(enemyTypes[rnd], spawnPoints[i].position, spawnPoints[i].rotation);
+            GameObject og = Instantiate(enemyTypes[rnd], spawnPoints[i].position, spawnPoints[i].rotation);
+            enemies.Add(og);
+            yield return new WaitForSeconds(2);
         }
+
+    }
+    public Transform GetRandomSpawnPoint()
+    {
+        return spawnPoints[Random.Range(0, spawnPoints.Length)];
     }
 
-    void KillSpecificEnemies(string _condition)
+    void KillSpecificEnemy(string _condition)
     {
         int eCount = enemies.Count;
-        for (int i = 0; i < enemies.Count; i++)
+        for (int i = 0; i < eCount; i++)
         {
-            if (enemies[i].name.Contains(_condition))
-                KillEnemy(enemies[i]);
+            if (enemies[0].name.Contains(_condition))
+                KillEnemy(enemies[0]);
         }
     }
 
+    /// <summary>
+    /// Kills all enemies in the scene
+    /// </summary>
     void KillAllEnemies()
     {
         int eCount = enemies.Count;
-        for (int i = 0; i <enemies.Count; i++)
+        for (int i = 0; i < eCount; i++)
         {
-            KillEnemy(enemies[1]);
+            KillEnemy(enemies[0]);
         }
     }
 
-    void KillEnemy(GameObject _enemy)
+    /// <summary>
+    /// Kills an enemy based on the gameobject passed in
+    /// </summary>
+    /// <param name="_enemy">The GameObject of the Enemy</param>
+    public void KillEnemy(GameObject _enemy)
     {
         if (enemies.Count == 0)
             return;
 
-        Destroy(_enemy);
+        Destroy(_enemy, 2);
         enemies.Remove(_enemy);
     }
 
-    float spawnDelay = 3;
-
-    IEnumerator SpawnEnemyDelayed()
+    void OnEnemyDied(Enemy _enemy)
     {
-        for (int i = 0; i < spawnPoints.Length; i++)
+        KillEnemy(_enemy.gameObject);
+    }
+
+    void OnGameStateChange(GameState _gameState)
+    {
+        switch (_gameState)
         {
-            int rndEnemy = Random.Range(0, enemyTypes.Length);
-            GameObject enemy = Instantiate(enemyTypes[rndEnemy], spawnPoints[i].position, spawnPoints[i].rotation);
-            enemies.Add(enemy);
-            yield return new WaitForSeconds(spawnDelay);
+            case GameState.Playing:
+                StartCoroutine(SpawnEnemyDelay());
+                break;
+            case GameState.Title:
+            case GameState.GameOver:
+            case GameState.Paused:
+                StopAllCoroutines();
+                break;
         }
     }
-    
-    //Enemy is dead
+
     private void OnEnable()
     {
-        GameEvents.OnEnemyDied += EnemyDied;
+        
+        GameEvents.OnEnemyDied += OnEnemyDied;
+        GameEvents.OnGameStateChange += OnGameStateChange;
     }
 
     private void OnDisable()
     {
-        GameEvents.OnEnemyDied -= EnemyDied;
-    }
-    public void EnemyDied(Enemy _enemy)
-    {
-        enemies.Remove(_enemy.gameObject);
-        Destroy(_enemy.gameObject);
+        
+        GameEvents.OnEnemyDied -= OnEnemyDied;
+        GameEvents.OnGameStateChange -= OnGameStateChange;
     }
 }

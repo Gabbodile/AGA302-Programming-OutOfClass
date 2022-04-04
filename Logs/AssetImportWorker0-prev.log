@@ -15,7 +15,7 @@ C:/Users/kayla/Desktop/AGA302-Programming-OutOfClass
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58906
+61923
 Successfully changed project path to: C:/Users/kayla/Desktop/AGA302-Programming-OutOfClass
 C:/Users/kayla/Desktop/AGA302-Programming-OutOfClass
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/kayla/Desktop/AGA302-Programming-OutOfClass
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 182.32 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 176.77 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.2.6f1 (8c4e826ba445)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.6f1/Editor/Data/Resources/UnitySubsystems
@@ -63,563 +63,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.6f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56492
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56556
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.038830 seconds.
+Registered in 0.033519 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 370.45 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 245.69 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.376 seconds
+- Completed reload, in  2.163 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2377ms)
-		BeginReloadAssembly (270ms)
+	ReloadAssembly (2165ms)
+		BeginReloadAssembly (217ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (3ms)
-		EndReloadAssembly (1752ms)
-			LoadAssemblies (258ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1557ms)
+			LoadAssemblies (211ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (366ms)
+			SetupTypeCache (347ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (98ms)
-			SetupLoadedEditorAssemblies (1083ms)
+			RebuildScriptCaches (73ms)
+			SetupLoadedEditorAssemblies (856ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (64ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (371ms)
+				InitializePlatformSupportModulesInManaged (35ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (246ms)
 				BeforeProcessingInitializeOnLoad (4ms)
-				ProcessInitializeOnLoadAttributes (515ms)
-				ProcessInitializeOnLoadMethodAttributes (128ms)
+				ProcessInitializeOnLoadAttributes (426ms)
+				ProcessInitializeOnLoadMethodAttributes (144ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.020139 seconds.
+Registered in 0.032020 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\kayla\Desktop\AGA302-Programming-OutOfClass\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\kayla\Desktop\AGA302-Programming-OutOfClass\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.218 seconds
+- Completed reload, in  2.425 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3220ms)
-		BeginReloadAssembly (386ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (21ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (60ms)
-		EndReloadAssembly (2547ms)
-			LoadAssemblies (262ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (761ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (148ms)
-			SetupLoadedEditorAssemblies (1222ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (48ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (279ms)
-				ProcessInitializeOnLoadAttributes (766ms)
-				ProcessInitializeOnLoadMethodAttributes (86ms)
-				AfterProcessingInitializeOnLoad (39ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (20ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
-Refreshing native plugins compatible for Editor in 1.54 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3218 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 26 unused Assets / (112.4 KB). Loaded Objects now: 3675.
-Memory consumption went from 112.2 MB to 112.1 MB.
-Total: 6.457100 ms (FindLiveObjects: 0.517000 ms CreateObjectMapping: 0.188600 ms MarkObjects: 5.577400 ms  DeleteObjects: 0.171500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.024289 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\kayla\Desktop\AGA302-Programming-OutOfClass\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\kayla\Desktop\AGA302-Programming-OutOfClass\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.32 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.254 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3257ms)
-		BeginReloadAssembly (433ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (22ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (86ms)
-		EndReloadAssembly (2487ms)
-			LoadAssemblies (288ms)
-			RebuildTransferFunctionScriptingTraits (1ms)
-			SetupTypeCache (869ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (135ms)
-			SetupLoadedEditorAssemblies (1098ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (42ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (255ms)
-				ProcessInitializeOnLoadAttributes (677ms)
-				ProcessInitializeOnLoadMethodAttributes (82ms)
-				AfterProcessingInitializeOnLoad (39ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (20ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.90 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3213 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 21 unused Assets / (79.4 KB). Loaded Objects now: 3677.
-Memory consumption went from 112.2 MB to 112.1 MB.
-Total: 8.357100 ms (FindLiveObjects: 0.575600 ms CreateObjectMapping: 0.226200 ms MarkObjects: 7.348100 ms  DeleteObjects: 0.203400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 831250.574338 seconds.
-  path: Assets/Scripts/GameManager.cs
-  artifactKey: Guid(6d0236a13ccc50f4c8b954c42aa1d6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/GameManager.cs using Guid(6d0236a13ccc50f4c8b954c42aa1d6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e117d4426f48762370c425ecb6e2c6f3') in 0.130621 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1453.137090 seconds.
-  path: Assets/Scripts/EnemyManager.cs
-  artifactKey: Guid(1dcded4e4c29b44498ff4fcd04ad0d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/EnemyManager.cs using Guid(1dcded4e4c29b44498ff4fcd04ad0d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '990ae4ae57218c821ca8287fc6d7d074') in 0.012622 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.384814 seconds.
-  path: Assets/Scripts/EnemyManager.cs
-  artifactKey: Guid(1dcded4e4c29b44498ff4fcd04ad0d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/EnemyManager.cs using Guid(1dcded4e4c29b44498ff4fcd04ad0d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd864a5a02c6b61185af6ede3f2704cf') in 0.008066 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.012275 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\kayla\Desktop\AGA302-Programming-OutOfClass\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\kayla\Desktop\AGA302-Programming-OutOfClass\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.86 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.300 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3302ms)
-		BeginReloadAssembly (399ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (18ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (98ms)
-		EndReloadAssembly (2545ms)
-			LoadAssemblies (251ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (814ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (129ms)
-			SetupLoadedEditorAssemblies (1165ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (49ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (39ms)
-				BeforeProcessingInitializeOnLoad (249ms)
-				ProcessInitializeOnLoadAttributes (726ms)
-				ProcessInitializeOnLoadMethodAttributes (56ms)
-				AfterProcessingInitializeOnLoad (45ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (22ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.50 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3213 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 21 unused Assets / (79.3 KB). Loaded Objects now: 3679.
-Memory consumption went from 112.2 MB to 112.1 MB.
-Total: 8.737300 ms (FindLiveObjects: 0.582500 ms CreateObjectMapping: 0.291700 ms MarkObjects: 7.680700 ms  DeleteObjects: 0.179700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 118.101822 seconds.
-  path: Assets/Material/Triggerzone.mat
-  artifactKey: Guid(66fc9416706e45e4db1d9da7c8caba64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Triggerzone.mat using Guid(66fc9416706e45e4db1d9da7c8caba64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bedda5312b99e9ad6446e616ac617992') in 0.385384 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 15.004613 seconds.
-  path: Assets/Material/spawn.mat
-  artifactKey: Guid(c59980b616d4971429234680be98fb1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/spawn.mat using Guid(c59980b616d4971429234680be98fb1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1360c43674a0da22959461a19c9807b') in 0.057619 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 67.614807 seconds.
-  path: Assets/Prefabs/SpawnPoint.prefab
-  artifactKey: Guid(5e60e88ceb5e403419652258801b026d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/SpawnPoint.prefab using Guid(5e60e88ceb5e403419652258801b026d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4511aaa439d589517f8ee93aedb48905') in 0.104439 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 485.166220 seconds.
-  path: Assets/Prefabs/SpawnPoint.prefab
-  artifactKey: Guid(5e60e88ceb5e403419652258801b026d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/SpawnPoint.prefab using Guid(5e60e88ceb5e403419652258801b026d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '740e9c87e89dab42c39517c56ff0fd9d') in 0.035891 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 20.652925 seconds.
-  path: Assets/Skeletons/Models/Dungeon_Skeleton.FBX
-  artifactKey: Guid(20300ac630e0fcd4dbab63a9b39cdafa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Skeletons/Models/Dungeon_Skeleton.FBX using Guid(20300ac630e0fcd4dbab63a9b39cdafa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75fa25caa05b88e6bbd57c50b6d2f6f9') in 1.638274 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.240414 seconds.
-  path: Assets/Skeletons/Models/Materials/DS_equipment_standard.mat
-  artifactKey: Guid(b4a832eac190e404c8b9b2ca3775f755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Skeletons/Models/Materials/DS_equipment_standard.mat using Guid(b4a832eac190e404c8b9b2ca3775f755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0647dbf6b906f19654ab07ae75de2a32') in 0.057153 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 21.699261 seconds.
-  path: Assets/Skeletons/Prefabs/Skeleton_A.prefab
-  artifactKey: Guid(a27aaa9514020fa44bb6081abd5f14fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Skeletons/Prefabs/Skeleton_A.prefab using Guid(a27aaa9514020fa44bb6081abd5f14fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7750450d76ac898be23d040838eedd7d') in 0.069075 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000083 seconds.
-  path: Assets/Skeletons/Prefabs/Skeleton_C.prefab
-  artifactKey: Guid(d86c716d338a1a04d89b6ee52d44933c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Skeletons/Prefabs/Skeleton_C.prefab using Guid(d86c716d338a1a04d89b6ee52d44933c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a1c6884094aaef9f58a67a065ebae1c') in 0.070084 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/Skeletons/Prefabs/Skeleton_D.prefab
-  artifactKey: Guid(b2951f8d32af933468dd00c41bb3f7d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Skeletons/Prefabs/Skeleton_D.prefab using Guid(b2951f8d32af933468dd00c41bb3f7d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb5ce2a1a41e82f92627ff2d639bfb11') in 0.048716 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000081 seconds.
-  path: Assets/Skeletons/Prefabs/Skeleton_TwoHanded_A.prefab
-  artifactKey: Guid(95af6d03dc5e07142b1a349a829d8b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Skeletons/Prefabs/Skeleton_TwoHanded_A.prefab using Guid(95af6d03dc5e07142b1a349a829d8b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9372c5662cfbc8ad88ad7118dd3d07be') in 0.051701 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/Skeletons/Prefabs/Skeleton_archer_B.prefab
-  artifactKey: Guid(cf1f48d2327ff8640a3ed8e9673685ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Skeletons/Prefabs/Skeleton_archer_B.prefab using Guid(cf1f48d2327ff8640a3ed8e9673685ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dac361af5c8407da32521ffa95a90bf') in 0.051133 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/Skeletons/Prefabs/Skeleton_F.prefab
-  artifactKey: Guid(3a367ca1b4f5a1a47bda6e98e7ba1f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Skeletons/Prefabs/Skeleton_F.prefab using Guid(3a367ca1b4f5a1a47bda6e98e7ba1f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adcc1c0cb7c81ebfcbc7a92a7f3dc943') in 0.063458 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000084 seconds.
-  path: Assets/Skeletons/Prefabs/Skeleton_TwoHanded_B.prefab
-  artifactKey: Guid(77ad0facb2a27504ab8edf68c35a1346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Skeletons/Prefabs/Skeleton_TwoHanded_B.prefab using Guid(77ad0facb2a27504ab8edf68c35a1346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efb597774c260e8c38dad0ea0c1a00ca') in 0.066939 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 66.455980 seconds.
-  path: Assets/Material/spawn.mat
-  artifactKey: Guid(c59980b616d4971429234680be98fb1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/spawn.mat using Guid(c59980b616d4971429234680be98fb1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0af62dd08bbe63a7e017a864b07e55c8') in 0.033168 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.019152 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\kayla\Desktop\AGA302-Programming-OutOfClass\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\kayla\Desktop\AGA302-Programming-OutOfClass\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.03 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.273 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3275ms)
-		BeginReloadAssembly (433ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (15ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (104ms)
-		EndReloadAssembly (2523ms)
-			LoadAssemblies (316ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (827ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (110ms)
-			SetupLoadedEditorAssemblies (1132ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (46ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (239ms)
-				ProcessInitializeOnLoadAttributes (729ms)
-				ProcessInitializeOnLoadMethodAttributes (69ms)
-				AfterProcessingInitializeOnLoad (46ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (21ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3214 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 21 unused Assets / (79.4 KB). Loaded Objects now: 3728.
-Memory consumption went from 129.4 MB to 129.4 MB.
-Total: 6.089800 ms (FindLiveObjects: 0.529300 ms CreateObjectMapping: 0.296900 ms MarkObjects: 5.042000 ms  DeleteObjects: 0.219300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 146.099255 seconds.
-  path: Assets/Skeletons/Prefabs/Skeleton_A.prefab
-  artifactKey: Guid(a27aaa9514020fa44bb6081abd5f14fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Skeletons/Prefabs/Skeleton_A.prefab using Guid(a27aaa9514020fa44bb6081abd5f14fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd9a81aa700eaf1bf5252d3cd103c533') in 0.282302 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.983429 seconds.
-  path: Assets/Scripts/Enemy.cs
-  artifactKey: Guid(20f255201a995da4d9080c6523e042a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Enemy.cs using Guid(20f255201a995da4d9080c6523e042a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9a6d5ab43cb4f3083485f9b0d516c25') in 0.009927 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 328.744607 seconds.
-  path: Assets/Scripts/Enemy.cs
-  artifactKey: Guid(20f255201a995da4d9080c6523e042a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Enemy.cs using Guid(20f255201a995da4d9080c6523e042a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddf7eccca06918d7f4998feae67d05b5') in 0.009562 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.027504 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\kayla\Desktop\AGA302-Programming-OutOfClass\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\kayla\Desktop\AGA302-Programming-OutOfClass\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.263 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3265ms)
-		BeginReloadAssembly (474ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (21ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (96ms)
-		EndReloadAssembly (2442ms)
-			LoadAssemblies (297ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (823ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (131ms)
-			SetupLoadedEditorAssemblies (1113ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (29ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (229ms)
-				ProcessInitializeOnLoadAttributes (724ms)
-				ProcessInitializeOnLoadMethodAttributes (82ms)
-				AfterProcessingInitializeOnLoad (45ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (25ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.27 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3214 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 21 unused Assets / (79.5 KB). Loaded Objects now: 3730.
-Memory consumption went from 129.4 MB to 129.4 MB.
-Total: 8.469600 ms (FindLiveObjects: 0.774800 ms CreateObjectMapping: 0.297200 ms MarkObjects: 7.154700 ms  DeleteObjects: 0.239600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 296.135050 seconds.
-  path: Assets/Scripts/EnemyManager.cs
-  artifactKey: Guid(1dcded4e4c29b44498ff4fcd04ad0d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/EnemyManager.cs using Guid(1dcded4e4c29b44498ff4fcd04ad0d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9f3ab032db14bf9fd05f3c5f718eadb') in 0.025833 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.026588 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\kayla\Desktop\AGA302-Programming-OutOfClass\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\kayla\Desktop\AGA302-Programming-OutOfClass\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.84 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.182 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3183ms)
-		BeginReloadAssembly (381ms)
+	ReloadAssembly (2428ms)
+		BeginReloadAssembly (373ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (23ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (83ms)
-		EndReloadAssembly (2457ms)
-			LoadAssemblies (237ms)
+			CreateAndSetChildDomain (48ms)
+		EndReloadAssembly (1728ms)
+			LoadAssemblies (264ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (780ms)
-			ReleaseScriptCaches (12ms)
-			RebuildScriptCaches (149ms)
-			SetupLoadedEditorAssemblies (1128ms)
+			SetupTypeCache (583ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (88ms)
+			SetupLoadedEditorAssemblies (765ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (46ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (249ms)
-				ProcessInitializeOnLoadAttributes (754ms)
-				ProcessInitializeOnLoadMethodAttributes (36ms)
-				AfterProcessingInitializeOnLoad (38ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.46 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3214 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 21 unused Assets / (79.5 KB). Loaded Objects now: 3732.
-Memory consumption went from 129.5 MB to 129.4 MB.
-Total: 10.535500 ms (FindLiveObjects: 0.888600 ms CreateObjectMapping: 1.582200 ms MarkObjects: 7.880800 ms  DeleteObjects: 0.181100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1666.098229 seconds.
-  path: Assets/Scripts/GameManager.cs
-  artifactKey: Guid(6d0236a13ccc50f4c8b954c42aa1d6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/GameManager.cs using Guid(6d0236a13ccc50f4c8b954c42aa1d6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc9ee3dc20027df2a8102f1f16fcfd3c') in 0.025334 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 69.096906 seconds.
-  path: Assets/Scripts/GameManager.cs
-  artifactKey: Guid(6d0236a13ccc50f4c8b954c42aa1d6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/GameManager.cs using Guid(6d0236a13ccc50f4c8b954c42aa1d6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7ac732f5981fd57897f1f273bc76a48') in 0.008451 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.024943 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\kayla\Desktop\AGA302-Programming-OutOfClass\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\kayla\Desktop\AGA302-Programming-OutOfClass\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.11 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.054 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3056ms)
-		BeginReloadAssembly (427ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (19ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (99ms)
-		EndReloadAssembly (2219ms)
-			LoadAssemblies (260ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (755ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (126ms)
-			SetupLoadedEditorAssemblies (927ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (30ms)
+				InitializePlatformSupportModulesInManaged (28ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (170ms)
-				ProcessInitializeOnLoadAttributes (636ms)
-				ProcessInitializeOnLoadMethodAttributes (58ms)
-				AfterProcessingInitializeOnLoad (30ms)
+				BeforeProcessingInitializeOnLoad (175ms)
+				ProcessInitializeOnLoadAttributes (477ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
+				AfterProcessingInitializeOnLoad (34ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (15ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.47 ms, found 3 plugins.
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.17 seconds
+Refreshing native plugins compatible for Editor in 1.29 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3214 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 21 unused Assets / (79.5 KB). Loaded Objects now: 3734.
-Memory consumption went from 129.5 MB to 129.4 MB.
-Total: 7.617200 ms (FindLiveObjects: 0.589500 ms CreateObjectMapping: 0.287900 ms MarkObjects: 6.517300 ms  DeleteObjects: 0.219900 ms)
+Unloading 3237 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (112.4 KB). Loaded Objects now: 3697.
+Memory consumption went from 115.2 MB to 115.1 MB.
+Total: 9.830500 ms (FindLiveObjects: 0.742500 ms CreateObjectMapping: 0.443200 ms MarkObjects: 8.382200 ms  DeleteObjects: 0.259500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -633,91 +159,1222 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 295.762679 seconds.
-  path: Assets/Scripts/Enemy.cs
-  artifactKey: Guid(20f255201a995da4d9080c6523e042a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Enemy.cs using Guid(20f255201a995da4d9080c6523e042a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2178fb1353e37951fcf27dc6b4dc83e8') in 0.020474 seconds 
+  Time since last request: 174559.117034 seconds.
+  path: Assets/Prefabs/Projectile.prefab
+  artifactKey: Guid(05c30470053f67144ba97eca53967f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Projectile.prefab using Guid(05c30470053f67144ba97eca53967f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba3d1948c3d140973bcd14a552f36a9f') in 0.353336 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 907.724132 seconds.
-  path: Assets/Scripts/Enemy.cs
-  artifactKey: Guid(20f255201a995da4d9080c6523e042a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Enemy.cs using Guid(20f255201a995da4d9080c6523e042a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e05755a86be19523f32078443cd68889') in 0.008462 seconds 
+  Time since last request: 849.418846 seconds.
+  path: Assets/Skeletons/Animation
+  artifactKey: Guid(8e23b637ef582724e83c077691a308b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skeletons/Animation using Guid(8e23b637ef582724e83c077691a308b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a297a646f3e3a7bb46b278f773fab94') in 0.009947 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 414.875293 seconds.
-  path: Assets/Scripts/Enemy.cs
-  artifactKey: Guid(20f255201a995da4d9080c6523e042a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Enemy.cs using Guid(20f255201a995da4d9080c6523e042a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29aea3c2dae42e5b948282197da31f71') in 0.008925 seconds 
+  Time since last request: 1.289197 seconds.
+  path: Assets/Skeletons/Animation/1_one_handed/DS_onehand_attack_A.FBX
+  artifactKey: Guid(5fc58e648726c914f8dee69d8b0cf7ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skeletons/Animation/1_one_handed/DS_onehand_attack_A.FBX using Guid(5fc58e648726c914f8dee69d8b0cf7ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '231dc9c897014d2edfd02f7aa581d255') in 0.171439 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 920.884328 seconds.
-  path: Assets/Scripts/GameBehaviour.cs
-  artifactKey: Guid(794aa3697f4886d47bef04b822752f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/GameBehaviour.cs using Guid(794aa3697f4886d47bef04b822752f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd690efed69f712b708917380b00e3010') in 0.009638 seconds 
+  Time since last request: 0.000069 seconds.
+  path: Assets/Skeletons/Animation/1_one_handed/DS_onehand_damage_A.FBX
+  artifactKey: Guid(892cbb1597ecafe48bcffba0f1a061a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skeletons/Animation/1_one_handed/DS_onehand_damage_A.FBX using Guid(892cbb1597ecafe48bcffba0f1a061a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f24532ae3bc94d8479e136192796dae') in 0.037750 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 609.328185 seconds.
-  path: Assets/Scripts/GameBehaviour.cs
-  artifactKey: Guid(794aa3697f4886d47bef04b822752f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/GameBehaviour.cs using Guid(794aa3697f4886d47bef04b822752f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd60ef8cd06d5d4c36d63e10a5867ec03') in 0.010606 seconds 
+  Time since last request: 0.000075 seconds.
+  path: Assets/Skeletons/Animation/1_one_handed
+  artifactKey: Guid(b13f0091535726747b9e204444cd9cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skeletons/Animation/1_one_handed using Guid(b13f0091535726747b9e204444cd9cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd28172eefeddbf91aad3ee925ef6f6f8') in 0.010073 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1300.632988 seconds.
-  path: Assets/Scripts/GameBehaviour.cs
-  artifactKey: Guid(794aa3697f4886d47bef04b822752f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/GameBehaviour.cs using Guid(794aa3697f4886d47bef04b822752f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48fae2d6e84a1ac7a80dc686a6ad14eb') in 0.012631 seconds 
+  Time since last request: 0.000047 seconds.
+  path: Assets/Skeletons/Animation/1_one_handed/DS_onehand_death_A.FBX
+  artifactKey: Guid(beb9ae23461c552488a8a9f3130492e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skeletons/Animation/1_one_handed/DS_onehand_death_A.FBX using Guid(beb9ae23461c552488a8a9f3130492e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32cb2ae22a64d174d5bbd15f5c2c38f0') in 0.037612 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1278.054488 seconds.
-  path: Assets/Scripts/GameBehaviour.cs
-  artifactKey: Guid(794aa3697f4886d47bef04b822752f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/GameBehaviour.cs using Guid(794aa3697f4886d47bef04b822752f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '481c1df1a7a0e4345a427aa72bee7aee') in 0.008665 seconds 
+  Time since last request: 0.000099 seconds.
+  path: Assets/Skeletons/Animation/1_one_handed/DS_onehand_attack_C.FBX
+  artifactKey: Guid(209a69b56ebf4474b90999ee91a1062a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skeletons/Animation/1_one_handed/DS_onehand_attack_C.FBX using Guid(209a69b56ebf4474b90999ee91a1062a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '963800280ec12c4bcf4cac07c65aa1dd') in 0.027911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Skeletons/Animation/1_one_handed/DS_onehand_idle_A.FBX
+  artifactKey: Guid(5828c7958a7cb4d41ba2d434280b92e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skeletons/Animation/1_one_handed/DS_onehand_idle_A.FBX using Guid(5828c7958a7cb4d41ba2d434280b92e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bf26acc3c3b01b0e17d0bdb306bd55d') in 0.029607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Skeletons/Animation/1_one_handed/DS_onehand_damage_B.FBX
+  artifactKey: Guid(20a28ef1f3dac164095a85b731e08f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skeletons/Animation/1_one_handed/DS_onehand_damage_B.FBX using Guid(20a28ef1f3dac164095a85b731e08f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8067d8bb05d1b2194db2fefc24c4b533') in 0.028370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Skeletons/Animation/1_one_handed/DS_onehand_death_C.FBX
+  artifactKey: Guid(dd6313f90da6b7e47a94c945b382523a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skeletons/Animation/1_one_handed/DS_onehand_death_C.FBX using Guid(dd6313f90da6b7e47a94c945b382523a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1c71815f86202d3677aa77d69159fe3') in 0.029370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 141.537600 seconds.
+  path: Assets/Skeletons/Animation/1_one_handed/onehand.controller
+  artifactKey: Guid(497273303c913e84592be5276688accb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skeletons/Animation/1_one_handed/onehand.controller using Guid(497273303c913e84592be5276688accb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5003c38663b26ee2e6dd233aa5782639') in 0.019980 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 555.140290 seconds.
+  path: Assets/Prefabs/Projectile.prefab
+  artifactKey: Guid(05c30470053f67144ba97eca53967f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Projectile.prefab using Guid(05c30470053f67144ba97eca53967f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba3d1948c3d140973bcd14a552f36a9f') in 0.032864 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.954954 seconds.
+  path: Assets/Skeletons/Prefabs/Skeleton_A.prefab
+  artifactKey: Guid(a27aaa9514020fa44bb6081abd5f14fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skeletons/Prefabs/Skeleton_A.prefab using Guid(a27aaa9514020fa44bb6081abd5f14fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2fa6f058552625b17655e3596a3ec41') in 0.152640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Skeletons/Prefabs/Skeleton_C.prefab
+  artifactKey: Guid(d86c716d338a1a04d89b6ee52d44933c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skeletons/Prefabs/Skeleton_C.prefab using Guid(d86c716d338a1a04d89b6ee52d44933c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31753b318765f9d5a0d6d2d1c202ee28') in 0.062364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Skeletons/Prefabs/Skeleton_D.prefab
+  artifactKey: Guid(b2951f8d32af933468dd00c41bb3f7d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skeletons/Prefabs/Skeleton_D.prefab using Guid(b2951f8d32af933468dd00c41bb3f7d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2b0fc26726ad6d24b4c3f83f1aa5576') in 0.053447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Skeletons/Prefabs/Skeleton_TwoHanded_A.prefab
+  artifactKey: Guid(95af6d03dc5e07142b1a349a829d8b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skeletons/Prefabs/Skeleton_TwoHanded_A.prefab using Guid(95af6d03dc5e07142b1a349a829d8b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b31445879b0f4c8df9278c22e3068d86') in 0.055206 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Skeletons/Prefabs/Skeleton_F.prefab
+  artifactKey: Guid(3a367ca1b4f5a1a47bda6e98e7ba1f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skeletons/Prefabs/Skeleton_F.prefab using Guid(3a367ca1b4f5a1a47bda6e98e7ba1f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3c0bfa97f34654399624458c363c895') in 0.050119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Skeletons/Prefabs/Skeleton_TwoHanded_B.prefab
+  artifactKey: Guid(77ad0facb2a27504ab8edf68c35a1346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skeletons/Prefabs/Skeleton_TwoHanded_B.prefab using Guid(77ad0facb2a27504ab8edf68c35a1346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '454efba0249b495d003be54f8cce64c8') in 0.053132 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.043183 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e3fbf6dffd9b5789938eb73ee1c0db3') in 0.017220 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1383.563835 seconds.
+  path: Assets/Skeletons/Prefabs/Skeleton_A.prefab
+  artifactKey: Guid(a27aaa9514020fa44bb6081abd5f14fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skeletons/Prefabs/Skeleton_A.prefab using Guid(a27aaa9514020fa44bb6081abd5f14fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a66660705a548ba09a9dd78ee7e811f') in 0.143571 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Skeletons/Prefabs/Skeleton_D.prefab
+  artifactKey: Guid(b2951f8d32af933468dd00c41bb3f7d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skeletons/Prefabs/Skeleton_D.prefab using Guid(b2951f8d32af933468dd00c41bb3f7d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2b0fc26726ad6d24b4c3f83f1aa5576') in 0.057166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Skeletons/Prefabs/Skeleton_archer_B.prefab
+  artifactKey: Guid(cf1f48d2327ff8640a3ed8e9673685ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skeletons/Prefabs/Skeleton_archer_B.prefab using Guid(cf1f48d2327ff8640a3ed8e9673685ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '935cbc77298bb43c2c3771d65d844def') in 0.052546 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Skeletons/Prefabs/Skeleton_E.prefab
+  artifactKey: Guid(e967c42ede832ae4d964d682b25ec538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skeletons/Prefabs/Skeleton_E.prefab using Guid(e967c42ede832ae4d964d682b25ec538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7a9675e36c82f54c046a67c8711d4a7') in 0.057972 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Skeletons/Prefabs/Skeleton_B.prefab
+  artifactKey: Guid(37030c5c7c1b6674dac293a85cc7d5a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skeletons/Prefabs/Skeleton_B.prefab using Guid(37030c5c7c1b6674dac293a85cc7d5a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '194f0a002c2753945d955417d26ef48f') in 0.049544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 48.978702 seconds.
+  path: Assets/Scripts/TargetManager.cs
+  artifactKey: Guid(78dc36cfdc7859f4ba0c43163cad8108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/TargetManager.cs using Guid(78dc36cfdc7859f4ba0c43163cad8108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c80ddf86c936ab898cdf69529c065581') in 0.023996 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.025948 seconds.
+Registered in 0.014278 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\kayla\Desktop\AGA302-Programming-OutOfClass\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\kayla\Desktop\AGA302-Programming-OutOfClass\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.37 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.02 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.402 seconds
+- Completed reload, in  3.018 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3407ms)
-		BeginReloadAssembly (692ms)
+	ReloadAssembly (3019ms)
+		BeginReloadAssembly (391ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (29ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (190ms)
-		EndReloadAssembly (2329ms)
-			LoadAssemblies (352ms)
+			CreateAndSetChildDomain (113ms)
+		EndReloadAssembly (2381ms)
+			LoadAssemblies (229ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (844ms)
+			SetupTypeCache (761ms)
 			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (109ms)
-			SetupLoadedEditorAssemblies (986ms)
+			RebuildScriptCaches (124ms)
+			SetupLoadedEditorAssemblies (1129ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (33ms)
-				SetLoadedEditorAssemblies (3ms)
+				InitializePlatformSupportModulesInManaged (47ms)
+				SetLoadedEditorAssemblies (2ms)
 				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (232ms)
-				ProcessInitializeOnLoadAttributes (643ms)
-				ProcessInitializeOnLoadMethodAttributes (39ms)
-				AfterProcessingInitializeOnLoad (34ms)
+				BeforeProcessingInitializeOnLoad (239ms)
+				ProcessInitializeOnLoadAttributes (728ms)
+				ProcessInitializeOnLoadMethodAttributes (73ms)
+				AfterProcessingInitializeOnLoad (37ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3219 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (79.5 KB). Loaded Objects now: 3708.
+Memory consumption went from 130.2 MB to 130.2 MB.
+Total: 8.941400 ms (FindLiveObjects: 0.625700 ms CreateObjectMapping: 0.309000 ms MarkObjects: 7.726000 ms  DeleteObjects: 0.276500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 42.900404 seconds.
+  path: Assets/Skeletons/Prefabs/Skeleton_archer_A.prefab
+  artifactKey: Guid(b806d07906e3ec2418b856b830337dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skeletons/Prefabs/Skeleton_archer_A.prefab using Guid(b806d07906e3ec2418b856b830337dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dee774dad4bb33c4069487e00e6f70a7') in 0.267710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Skeletons/Prefabs/Skeleton_C.prefab
+  artifactKey: Guid(d86c716d338a1a04d89b6ee52d44933c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skeletons/Prefabs/Skeleton_C.prefab using Guid(d86c716d338a1a04d89b6ee52d44933c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f8fd58b325d3e9fbf9df8d83e9764e7') in 0.053028 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Skeletons/Prefabs/Skeleton_TwoHanded_A.prefab
+  artifactKey: Guid(95af6d03dc5e07142b1a349a829d8b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skeletons/Prefabs/Skeleton_TwoHanded_A.prefab using Guid(95af6d03dc5e07142b1a349a829d8b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47e67e34f44792dc7c9b9f76c5f542aa') in 0.059685 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Skeletons/Prefabs/Skeleton_E.prefab
+  artifactKey: Guid(e967c42ede832ae4d964d682b25ec538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skeletons/Prefabs/Skeleton_E.prefab using Guid(e967c42ede832ae4d964d682b25ec538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e896e52adf64b31ff9662d3246fd9fec') in 0.056797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Skeletons/Prefabs/Skeleton_B.prefab
+  artifactKey: Guid(37030c5c7c1b6674dac293a85cc7d5a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skeletons/Prefabs/Skeleton_B.prefab using Guid(37030c5c7c1b6674dac293a85cc7d5a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bcc3276a115c77ec1de357fb2ea6b36') in 0.053049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 48.006544 seconds.
+  path: Assets/Skeletons/Prefabs/Skeleton_A.prefab
+  artifactKey: Guid(a27aaa9514020fa44bb6081abd5f14fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skeletons/Prefabs/Skeleton_A.prefab using Guid(a27aaa9514020fa44bb6081abd5f14fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (onehand) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules\Animation\Director\AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (onehand) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules\Animation\Director\AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: '282f262149215288dda0c132308eb7f1') in 0.057572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Skeletons/Prefabs/Skeleton_C.prefab
+  artifactKey: Guid(d86c716d338a1a04d89b6ee52d44933c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skeletons/Prefabs/Skeleton_C.prefab using Guid(d86c716d338a1a04d89b6ee52d44933c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (onehand) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules\Animation\Director\AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (onehand) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules\Animation\Director\AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: '519d94f6dc2f4161835460c163b50857') in 0.046888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Skeletons/Prefabs/Skeleton_TwoHanded_A.prefab
+  artifactKey: Guid(95af6d03dc5e07142b1a349a829d8b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skeletons/Prefabs/Skeleton_TwoHanded_A.prefab using Guid(95af6d03dc5e07142b1a349a829d8b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (onehand) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules\Animation\Director\AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (onehand) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules\Animation\Director\AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: '3bbf4cb093720ef9fc7b32c2ffb239b4') in 0.052657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Skeletons/Prefabs/Skeleton_F.prefab
+  artifactKey: Guid(3a367ca1b4f5a1a47bda6e98e7ba1f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skeletons/Prefabs/Skeleton_F.prefab using Guid(3a367ca1b4f5a1a47bda6e98e7ba1f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (onehand) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules\Animation\Director\AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (onehand) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules\Animation\Director\AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: 'ff72bd5b2536707655be3d3f23fa84c0') in 0.047624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Skeletons/Prefabs/Skeleton_TwoHanded_B.prefab
+  artifactKey: Guid(77ad0facb2a27504ab8edf68c35a1346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skeletons/Prefabs/Skeleton_TwoHanded_B.prefab using Guid(77ad0facb2a27504ab8edf68c35a1346) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (onehand) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules\Animation\Director\AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (onehand) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules\Animation\Director\AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: '79bbac4ca7bab6cd90a1621b97304b5d') in 0.042945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.508220 seconds.
+  path: Assets/Skeletons/Prefabs/Skeleton_archer_A.prefab
+  artifactKey: Guid(b806d07906e3ec2418b856b830337dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skeletons/Prefabs/Skeleton_archer_A.prefab using Guid(b806d07906e3ec2418b856b830337dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (onehand) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules\Animation\Director\AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (onehand) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules\Animation\Director\AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: '275e2556b4c0abcdb2417951e7bef51c') in 0.051015 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.513840 seconds.
+  path: Assets/Skeletons/Prefabs/Skeleton_archer_B.prefab
+  artifactKey: Guid(cf1f48d2327ff8640a3ed8e9673685ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skeletons/Prefabs/Skeleton_archer_B.prefab using Guid(cf1f48d2327ff8640a3ed8e9673685ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (onehand) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules\Animation\Director\AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (onehand) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules\Animation\Director\AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: 'f5609b48f67f9710392f2406a4b4eed5') in 0.062262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.621153 seconds.
+  path: Assets/Skeletons/Prefabs/Skeleton_B.prefab
+  artifactKey: Guid(37030c5c7c1b6674dac293a85cc7d5a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skeletons/Prefabs/Skeleton_B.prefab using Guid(37030c5c7c1b6674dac293a85cc7d5a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (onehand) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules\Animation\Director\AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (onehand) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules\Animation\Director\AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: 'eacc4da6d3484b8e5f178cb80080f83f') in 0.053319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.672441 seconds.
+  path: Assets/Skeletons/Prefabs/Skeleton_C.prefab
+  artifactKey: Guid(d86c716d338a1a04d89b6ee52d44933c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skeletons/Prefabs/Skeleton_C.prefab using Guid(d86c716d338a1a04d89b6ee52d44933c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (onehand) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules\Animation\Director\AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (onehand) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules\Animation\Director\AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: 'bff4785de3472a9dce0e1a83fc1c6800') in 0.055883 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.882675 seconds.
+  path: Assets/Skeletons/Prefabs/Skeleton_D.prefab
+  artifactKey: Guid(b2951f8d32af933468dd00c41bb3f7d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skeletons/Prefabs/Skeleton_D.prefab using Guid(b2951f8d32af933468dd00c41bb3f7d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (onehand) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules\Animation\Director\AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (onehand) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules\Animation\Director\AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: 'c10ca68b8e09cfcd79fd754106a8bbb9') in 0.053288 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.832021 seconds.
+  path: Assets/Skeletons/Prefabs/Skeleton_E.prefab
+  artifactKey: Guid(e967c42ede832ae4d964d682b25ec538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skeletons/Prefabs/Skeleton_E.prefab using Guid(e967c42ede832ae4d964d682b25ec538) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (onehand) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules\Animation\Director\AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (onehand) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules\Animation\Director\AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: 'c9913d37add90af71b876c02fb43aae8') in 0.060202 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.879533 seconds.
+  path: Assets/Skeletons/Prefabs/Skeleton_F.prefab
+  artifactKey: Guid(3a367ca1b4f5a1a47bda6e98e7ba1f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skeletons/Prefabs/Skeleton_F.prefab using Guid(3a367ca1b4f5a1a47bda6e98e7ba1f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (onehand) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules\Animation\Director\AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (onehand) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules\Animation\Director\AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: 'e7921624ee07d232b23af8e6a2478185') in 0.062560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.951278 seconds.
+  path: Assets/Skeletons/Prefabs/Skeleton_TwoHanded_A.prefab
+  artifactKey: Guid(95af6d03dc5e07142b1a349a829d8b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skeletons/Prefabs/Skeleton_TwoHanded_A.prefab using Guid(95af6d03dc5e07142b1a349a829d8b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (onehand) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules\Animation\Director\AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (onehand) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules\Animation\Director\AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: 'f470a0976e164047e08d1150468206d8') in 0.058246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.351741 seconds.
+  path: Assets/Skeletons/Prefabs/Skeleton_TwoHanded_B.prefab
+  artifactKey: Guid(77ad0facb2a27504ab8edf68c35a1346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skeletons/Prefabs/Skeleton_TwoHanded_B.prefab using Guid(77ad0facb2a27504ab8edf68c35a1346) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (onehand) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules\Animation\Director\AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (onehand) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules\Animation\Director\AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: '04381920e743d9c742e5a35d15f7741b') in 0.051683 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.074986 seconds.
+  path: Assets/Skeletons/Prefabs/Skeleton_archer_A.prefab
+  artifactKey: Guid(b806d07906e3ec2418b856b830337dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skeletons/Prefabs/Skeleton_archer_A.prefab using Guid(b806d07906e3ec2418b856b830337dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (onehand) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules\Animation\Director\AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (onehand) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules\Animation\Director\AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: '4323b5a0309c9037c0eb0431ceb773fc') in 0.055276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Skeletons/Prefabs/Skeleton_C.prefab
+  artifactKey: Guid(d86c716d338a1a04d89b6ee52d44933c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skeletons/Prefabs/Skeleton_C.prefab using Guid(d86c716d338a1a04d89b6ee52d44933c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (onehand) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules\Animation\Director\AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (onehand) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules\Animation\Director\AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: '344ae4604116c177a964347df217d308') in 0.049425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Skeletons/Prefabs/Skeleton_TwoHanded_A.prefab
+  artifactKey: Guid(95af6d03dc5e07142b1a349a829d8b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skeletons/Prefabs/Skeleton_TwoHanded_A.prefab using Guid(95af6d03dc5e07142b1a349a829d8b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (onehand) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules\Animation\Director\AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (onehand) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules\Animation\Director\AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: 'e507fef4a043d65fb8e7b40a75a8d846') in 0.052142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Skeletons/Prefabs/Skeleton_E.prefab
+  artifactKey: Guid(e967c42ede832ae4d964d682b25ec538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skeletons/Prefabs/Skeleton_E.prefab using Guid(e967c42ede832ae4d964d682b25ec538) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (onehand) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules\Animation\Director\AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (onehand) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules\Animation\Director\AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: 'e0aa04f520353520b170b57ad59b97ba') in 0.030419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Skeletons/Prefabs/Skeleton_B.prefab
+  artifactKey: Guid(37030c5c7c1b6674dac293a85cc7d5a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skeletons/Prefabs/Skeleton_B.prefab using Guid(37030c5c7c1b6674dac293a85cc7d5a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (onehand) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules\Animation\Director\AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (onehand) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules\Animation\Director\AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: '82e44bfb4542891b28abc2c242cc5ecd') in 0.035842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.976488 seconds.
+  path: Assets/Skeletons/Prefabs/Skeleton_archer_A.prefab
+  artifactKey: Guid(b806d07906e3ec2418b856b830337dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skeletons/Prefabs/Skeleton_archer_A.prefab using Guid(b806d07906e3ec2418b856b830337dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (onehand) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules\Animation\Director\AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (onehand) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules\Animation\Director\AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: '80d32102d3fcda7d3c3f9b3af5196a3d') in 0.063156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Skeletons/Prefabs/Skeleton_C.prefab
+  artifactKey: Guid(d86c716d338a1a04d89b6ee52d44933c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skeletons/Prefabs/Skeleton_C.prefab using Guid(d86c716d338a1a04d89b6ee52d44933c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (onehand) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules\Animation\Director\AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (onehand) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules\Animation\Director\AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: '97e659290571078fd7e64a12f89ac385') in 0.054290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Skeletons/Prefabs/Skeleton_F.prefab
+  artifactKey: Guid(3a367ca1b4f5a1a47bda6e98e7ba1f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skeletons/Prefabs/Skeleton_F.prefab using Guid(3a367ca1b4f5a1a47bda6e98e7ba1f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (onehand) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules\Animation\Director\AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (onehand) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules\Animation\Director\AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: 'e1310e81c39c01caf6d261381cfd9189') in 0.038198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Skeletons/Prefabs/Skeleton_TwoHanded_B.prefab
+  artifactKey: Guid(77ad0facb2a27504ab8edf68c35a1346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skeletons/Prefabs/Skeleton_TwoHanded_B.prefab using Guid(77ad0facb2a27504ab8edf68c35a1346) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (onehand) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules\Animation\Director\AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (onehand) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules\Animation\Director\AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: '730cc5c21c4e3daf9924b952887039fd') in 0.054078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Skeletons/Prefabs/Skeleton_B.prefab
+  artifactKey: Guid(37030c5c7c1b6674dac293a85cc7d5a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skeletons/Prefabs/Skeleton_B.prefab using Guid(37030c5c7c1b6674dac293a85cc7d5a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (onehand) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules\Animation\Director\AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (onehand) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules\Animation\Director\AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: '39e75639ee13ab40582ea3ec839d6ac2') in 0.045954 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.020342 seconds.
+  path: Assets/Skeletons/Prefabs/Skeleton_A.prefab
+  artifactKey: Guid(a27aaa9514020fa44bb6081abd5f14fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skeletons/Prefabs/Skeleton_A.prefab using Guid(a27aaa9514020fa44bb6081abd5f14fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (onehand) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules\Animation\Director\AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (onehand) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules\Animation\Director\AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: '0fc6d1673192deaca44b70c0842113ee') in 0.052081 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013937 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\kayla\Desktop\AGA302-Programming-OutOfClass\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\kayla\Desktop\AGA302-Programming-OutOfClass\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.248 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3251ms)
+		BeginReloadAssembly (380ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (82ms)
+		EndReloadAssembly (2578ms)
+			LoadAssemblies (268ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (802ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (120ms)
+			SetupLoadedEditorAssemblies (1273ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (60ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (237ms)
+				ProcessInitializeOnLoadAttributes (857ms)
+				ProcessInitializeOnLoadMethodAttributes (73ms)
+				AfterProcessingInitializeOnLoad (40ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3219 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (79.5 KB). Loaded Objects now: 3710.
+Memory consumption went from 130.6 MB to 130.5 MB.
+Total: 8.956000 ms (FindLiveObjects: 0.658400 ms CreateObjectMapping: 0.616500 ms MarkObjects: 7.479700 ms  DeleteObjects: 0.197900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.027506 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\kayla\Desktop\AGA302-Programming-OutOfClass\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\kayla\Desktop\AGA302-Programming-OutOfClass\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.427 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3430ms)
+		BeginReloadAssembly (481ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (26ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (82ms)
+		EndReloadAssembly (2541ms)
+			LoadAssemblies (344ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (865ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (149ms)
+			SetupLoadedEditorAssemblies (1095ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (43ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (236ms)
+				ProcessInitializeOnLoadAttributes (678ms)
+				ProcessInitializeOnLoadMethodAttributes (89ms)
+				AfterProcessingInitializeOnLoad (45ms)
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (22ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.98 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.16 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3215 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 21 unused Assets / (79.1 KB). Loaded Objects now: 3737.
-Memory consumption went from 129.5 MB to 129.4 MB.
-Total: 8.453300 ms (FindLiveObjects: 0.619800 ms CreateObjectMapping: 0.335000 ms MarkObjects: 7.190200 ms  DeleteObjects: 0.305600 ms)
+Unloading 3219 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (79.5 KB). Loaded Objects now: 3712.
+Memory consumption went from 130.6 MB to 130.5 MB.
+Total: 9.786600 ms (FindLiveObjects: 0.816900 ms CreateObjectMapping: 0.297900 ms MarkObjects: 8.433200 ms  DeleteObjects: 0.234500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.021774 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\kayla\Desktop\AGA302-Programming-OutOfClass\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\kayla\Desktop\AGA302-Programming-OutOfClass\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.21 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.393 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3396ms)
+		BeginReloadAssembly (424ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (19ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (95ms)
+		EndReloadAssembly (2568ms)
+			LoadAssemblies (267ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (834ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (160ms)
+			SetupLoadedEditorAssemblies (1124ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (48ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (252ms)
+				ProcessInitializeOnLoadAttributes (726ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
+				AfterProcessingInitializeOnLoad (44ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (25ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3219 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (79.5 KB). Loaded Objects now: 3714.
+Memory consumption went from 130.6 MB to 130.5 MB.
+Total: 10.559400 ms (FindLiveObjects: 0.715200 ms CreateObjectMapping: 0.483500 ms MarkObjects: 8.937800 ms  DeleteObjects: 0.417100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
